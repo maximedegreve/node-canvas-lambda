@@ -98,7 +98,7 @@ jobs:
     strategy:
       matrix:
         node: [18.12.0, 20.9.0]
-        canvas_tag: [] # e.g. "v2.6.1"
+        canvas_tag: ["v3.0.0"] # e.g. "v2.6.1"
     name: ${{ matrix.canvas_tag}}, Node.js ${{ matrix.node }}, macOS
     runs-on: macos-latest
     env:
@@ -164,7 +164,7 @@ jobs:
     strategy:
       matrix:
         node: [18.12.0, 20.9.0]
-        canvas_tag: [] # e.g. "v2.6.1"
+        canvas_tag: ["v3.0.0"] # e.g. "v2.6.1"
     name: ${{ matrix.canvas_tag}}, Node.js ${{ matrix.node }}, Windows
     runs-on: windows-latest
     env:
