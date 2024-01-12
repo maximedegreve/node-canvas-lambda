@@ -21,8 +21,8 @@
     }, {  # 'OS!="win"'
       'variables': {
         'with_jpeg%': '<!(node ./util/has_lib.js jpeg)',
-        'with_gif%': '<!(node ./util/has_lib.js gif)',
-        'with_rsvg%': '<!(node ./util/has_lib.js rsvg)'
+        'with_gif%': 'false',
+        'with_rsvg%': 'false'
       }
     }]
   ],
